@@ -39,12 +39,12 @@
     
     // 左界面
     _leftView = [[UIView alloc] init];
-    _leftView.backgroundColor = [UIColor whiteColor];
+    _leftView.backgroundColor = [UIColor redColor];
     [_myScrollView addSubview:_leftView];
     
     // 主界面
     _mainView = [[UIView alloc] init];
-    _mainView.backgroundColor = [UIColor blackColor];
+    _mainView.backgroundColor = [UIColor orangeColor];
     [_myScrollView addSubview:_mainView];
 }
 

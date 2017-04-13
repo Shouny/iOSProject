@@ -32,7 +32,7 @@
 {
     // 抽屉背景界面
     _myScrollView = [[UIScrollView alloc] init];
-    _myScrollView.backgroundColor = [UIColor whiteColor];
+    _myScrollView.backgroundColor = [UIColor grayColor];
     _myScrollView.bounces = NO;
     _myScrollView.pagingEnabled = YES;
     [self.view addSubview: _myScrollView];
